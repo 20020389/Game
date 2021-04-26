@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/snow/CLionProjects/Game/File/SaveKey.h
+header.h
+/home/snow/CLionProjects/Game/File/header.h
+fstream
+-
+SDL2/SDL_ttf.h
+-
+
+/home/snow/CLionProjects/Game/File/Score.h
+header.h
+/home/snow/CLionProjects/Game/File/header.h
+fstream
+-
+
+/home/snow/CLionProjects/Game/File/Setting.cpp
+Setting.h
+/home/snow/CLionProjects/Game/File/Setting.h
+
+/home/snow/CLionProjects/Game/File/Setting.h
+header.h
+/home/snow/CLionProjects/Game/File/header.h
+Score.h
+/home/snow/CLionProjects/Game/File/Score.h
+SaveKey.h
+/home/snow/CLionProjects/Game/File/SaveKey.h
+
+/home/snow/CLionProjects/Game/File/header.h
+bits/stdc++.h
+-
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_mixer.h
+-
+

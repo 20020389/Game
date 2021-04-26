@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/snow/CLionProjects/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/snow/CLionProjects/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/snow/CLionProjects/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="/home/snow/CLionProjects/Game/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/snow/CLionProjects/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="/home/snow/CLionProjects/Game/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/snow/CLionProjects/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/snow/CLionProjects/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Bird.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Bird.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Death.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Death.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Event.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Event.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Game.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Game.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/GamePlay.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/GamePlay.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Home.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Home.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Map.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Map.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Music.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Music.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Pipe.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Pipe.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/SaveKey.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/SaveKey.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Score.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Score.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Setting.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Setting.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Text.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/Text.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/User.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/User.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/main.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/volume.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/File/volume.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/snow/CLionProjects/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
