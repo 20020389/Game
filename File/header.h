@@ -61,6 +61,10 @@ public:
         this->Ranger_Click= false;
         this->Time_Click=1;
         this->Name_Key="W";
+        this->user_using="SNOW";
+        this->user_changing= false;
+        this->ghost_user="";
+        this->user_draw={400,500,0,0};
     }
 
 
@@ -117,6 +121,12 @@ public:
     bool Key_Change,Ranger_Click;   //Key_Change kiểm tra người chơi muốn đổi key hay không, Ranger_Click là Xử lý double click
     int Time_Click;                 //Độ trễ Double Click
     std::string Name_Key;           //Trả về tên phím
+
+//user:
+    std::string user_using,ghost_user;
+    bool user_changing;
+    SDL_Rect user_draw;
+
 ///Funcions:
     void Init() //hàm khởi tạo vị trí ống nước mỗi lần game bắt đầu
     {

@@ -13,10 +13,12 @@ DAI_Home::DAI_Home() {
     Change_BG={890,15,104,58};
     Music_Base={20,10,95,35};
     Music= new DAI_Music();
+    User= new DAI_User();
 }
 
 DAI_Home::~DAI_Home() {
-    //delete Music;
+    delete Music;
+    delete User;
 }
 
 void DAI_Home::Init_Home(Snow *get) {
@@ -26,6 +28,7 @@ void DAI_Home::Init_Home(Snow *get) {
         Music->Init_HC(get);
         a++;
     }
+    User->get_user(get);
     Setting_Img[0]=IMG_LoadTexture(get->render,"Resource/Asset/setting1.png");
     Setting_Img[1]=IMG_LoadTexture(get->render,"Resource/Asset/setting2.png");
     BG_img[0]=IMG_LoadTexture(get->render,"Resource/Asset/BG1.png");
@@ -82,6 +85,7 @@ void DAI_Home::Draw_Home(Snow *get) {
         SDL_RenderCopy(get->render, Setting_Img[0], nullptr, &Setting);
     Music->Draw(get);
     Music->Draw_Score(get);
+    User->Draw(get);
 }
 
 void DAI_Home::BG_Move() {

@@ -70,6 +70,28 @@ void DAI_Event::Key(Snow* get) {
         {
             key_Change(get);
         }
+        if(get->choose_map=="home"&&get->user_changing)
+        {
+            if((SDL_KeyCode)get->e.key.keysym.sym>=97&&(SDL_KeyCode)get->e.key.keysym.sym<=122)
+            {
+                name_key=(char)((int)((SDL_KeyCode)get->e.key.keysym.sym)-32);
+                get->user_using.push_back(name_key);
+            }
+            if(get->e.key.keysym.sym==SDLK_RETURN)
+            {
+                get->user_changing= false;
+                User_save.open("Resource/data/user/user.txt");
+                User_save<<get->user_using;
+                User_save.close();
+            }
+            if(get->e.key.keysym.sym==SDLK_BACKSPACE)
+            {
+                if(get->user_using.size()>0)
+                   get->user_using.resize(get->user_using.size()-1);
+            }
+            if(get->e.key.keysym.sym==SDLK_SPACE)
+                get->user_using+=" ";
+        }
     }
 }
 
@@ -80,7 +102,7 @@ void DAI_Event::Mouse(Snow* get) {
             get->Lv_Move= false;
     }
     if(get->e.type==SDL_MOUSEBUTTONDOWN) {
-        if(get->choose_map == "home")
+        if(get->choose_map == "home"&&!get->user_changing)
         {
             if (get->mouse_x >= 396 && get->mouse_x <= 604
                 && get->mouse_y >= 342 && get->mouse_y <= 458) {
@@ -94,6 +116,9 @@ void DAI_Event::Mouse(Snow* get) {
                 get->choose_map="setting";
                 get->limit_init = true;
             }
+            if(get->mouse_x>=get->user_draw.x+get->user_draw.w-40&& get->mouse_x<=get->user_draw.x+get->user_draw.w&&
+                get->mouse_y>=get->user_draw.y&& get->mouse_y<=get->user_draw.y+get->user_draw.h)
+                get->user_changing=true;
         }
         if(get->choose_map=="play"&&!get->Survival)
         {

@@ -6,6 +6,9 @@
 #define GAME_HOME_H
 #include "Music.h"
 #include "Score.h"
+#include "User.h"
+
+
 class DAI_Home {
 public:
     DAI_Home();
@@ -30,6 +33,7 @@ private:
     SDL_Texture* Music_Base_Img[2];
     SDL_Rect Music_Base;
     DAI_Music* Music;
+    DAI_User* User;
 };
 
 

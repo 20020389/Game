@@ -33,6 +33,7 @@ CMakeFiles/Game.dir/File/Game.cpp.o: ../File/SaveKey.h
 CMakeFiles/Game.dir/File/Game.cpp.o: ../File/Score.h
 CMakeFiles/Game.dir/File/Game.cpp.o: ../File/Setting.h
 CMakeFiles/Game.dir/File/Game.cpp.o: ../File/Text.h
+CMakeFiles/Game.dir/File/Game.cpp.o: ../File/User.h
 CMakeFiles/Game.dir/File/Game.cpp.o: ../File/header.h
 CMakeFiles/Game.dir/File/Game.cpp.o: ../File/volume.h
 
@@ -51,6 +52,7 @@ CMakeFiles/Game.dir/File/Home.cpp.o: ../File/Home.h
 CMakeFiles/Game.dir/File/Home.cpp.o: ../File/Music.h
 CMakeFiles/Game.dir/File/Home.cpp.o: ../File/Score.h
 CMakeFiles/Game.dir/File/Home.cpp.o: ../File/Text.h
+CMakeFiles/Game.dir/File/Home.cpp.o: ../File/User.h
 CMakeFiles/Game.dir/File/Home.cpp.o: ../File/header.h
 
 CMakeFiles/Game.dir/File/Map.cpp.o: ../File/Bird.h
@@ -65,6 +67,7 @@ CMakeFiles/Game.dir/File/Map.cpp.o: ../File/SaveKey.h
 CMakeFiles/Game.dir/File/Map.cpp.o: ../File/Score.h
 CMakeFiles/Game.dir/File/Map.cpp.o: ../File/Setting.h
 CMakeFiles/Game.dir/File/Map.cpp.o: ../File/Text.h
+CMakeFiles/Game.dir/File/Map.cpp.o: ../File/User.h
 CMakeFiles/Game.dir/File/Map.cpp.o: ../File/header.h
 CMakeFiles/Game.dir/File/Map.cpp.o: ../File/volume.h
 
@@ -97,6 +100,10 @@ CMakeFiles/Game.dir/File/Text.cpp.o: ../File/Text.cpp
 CMakeFiles/Game.dir/File/Text.cpp.o: ../File/Text.h
 CMakeFiles/Game.dir/File/Text.cpp.o: ../File/header.h
 
+CMakeFiles/Game.dir/File/User.cpp.o: ../File/User.cpp
+CMakeFiles/Game.dir/File/User.cpp.o: ../File/User.h
+CMakeFiles/Game.dir/File/User.cpp.o: ../File/header.h
+
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/Bird.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/Death.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/Event.h
@@ -110,6 +117,7 @@ CMakeFiles/Game.dir/File/main.cpp.o: ../File/SaveKey.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/Score.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/Setting.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/Text.h
+CMakeFiles/Game.dir/File/main.cpp.o: ../File/User.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/header.h
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/main.cpp
 CMakeFiles/Game.dir/File/main.cpp.o: ../File/volume.h

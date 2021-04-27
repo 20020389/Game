@@ -34,6 +34,7 @@ CMakeFiles/Game.dir/File/Game.cpp.o
  /home/snow/CLionProjects/Game/File/Score.h
  /home/snow/CLionProjects/Game/File/Setting.h
  /home/snow/CLionProjects/Game/File/Text.h
+ /home/snow/CLionProjects/Game/File/User.h
  /home/snow/CLionProjects/Game/File/header.h
  /home/snow/CLionProjects/Game/File/volume.h
 CMakeFiles/Game.dir/File/GamePlay.cpp.o
@@ -52,6 +53,7 @@ CMakeFiles/Game.dir/File/Home.cpp.o
  /home/snow/CLionProjects/Game/File/Music.h
  /home/snow/CLionProjects/Game/File/Score.h
  /home/snow/CLionProjects/Game/File/Text.h
+ /home/snow/CLionProjects/Game/File/User.h
  /home/snow/CLionProjects/Game/File/header.h
 CMakeFiles/Game.dir/File/Map.cpp.o
  /home/snow/CLionProjects/Game/File/Bird.h
@@ -66,6 +68,7 @@ CMakeFiles/Game.dir/File/Map.cpp.o
  /home/snow/CLionProjects/Game/File/Score.h
  /home/snow/CLionProjects/Game/File/Setting.h
  /home/snow/CLionProjects/Game/File/Text.h
+ /home/snow/CLionProjects/Game/File/User.h
  /home/snow/CLionProjects/Game/File/header.h
  /home/snow/CLionProjects/Game/File/volume.h
 CMakeFiles/Game.dir/File/Music.cpp.o
@@ -97,6 +100,10 @@ CMakeFiles/Game.dir/File/Text.cpp.o
  /home/snow/CLionProjects/Game/File/Text.cpp
  /home/snow/CLionProjects/Game/File/Text.h
  /home/snow/CLionProjects/Game/File/header.h
+CMakeFiles/Game.dir/File/User.cpp.o
+ /home/snow/CLionProjects/Game/File/User.cpp
+ /home/snow/CLionProjects/Game/File/User.h
+ /home/snow/CLionProjects/Game/File/header.h
 CMakeFiles/Game.dir/File/main.cpp.o
  /home/snow/CLionProjects/Game/File/Bird.h
  /home/snow/CLionProjects/Game/File/Death.h
@@ -111,6 +118,7 @@ CMakeFiles/Game.dir/File/main.cpp.o
  /home/snow/CLionProjects/Game/File/Score.h
  /home/snow/CLionProjects/Game/File/Setting.h
  /home/snow/CLionProjects/Game/File/Text.h
+ /home/snow/CLionProjects/Game/File/User.h
  /home/snow/CLionProjects/Game/File/header.h
  /home/snow/CLionProjects/Game/File/main.cpp
  /home/snow/CLionProjects/Game/File/volume.h

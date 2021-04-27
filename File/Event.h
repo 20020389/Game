@@ -6,6 +6,7 @@
 #define GAME_EVENT_H
 #include "Bird.h"
 #include "Score.h"
+
 class DAI_Event {
 public:
     DAI_Event(void);
@@ -18,7 +19,7 @@ public:
     void key_Change(Snow* get);
     DAI_Bird* Bird_Key;
     DAI_Score* Save_Score;
-
+    std::ofstream User_save;
 };
 
 
