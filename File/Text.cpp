@@ -9,7 +9,7 @@ DAI_Text::DAI_Text() {
     if(!TTF_WasInit())
         TTF_Init();
     BL={0,0,0};
-    font=TTF_OpenFont("Resource/Font/arialbd.ttf",25);
+    font=TTF_OpenFont("Resource/Font/Game.ttf",25);
     font2=TTF_OpenFont("Resource/Font/Game.ttf",30);
     Text.resize(10);
     Score = new DAI_Score();

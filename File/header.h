@@ -123,9 +123,10 @@ public:
     std::string Name_Key;           //Trả về tên phím
 
 //user:
-    std::string user_using,ghost_user;
-    bool user_changing;
-    SDL_Rect user_draw;
+    std::string user_using;         //user_using tên người dùng hiện tại
+    std::string ghost_user;         //tạo ra một tên người dùng ảo để vẽ
+    bool user_changing;             //kiểm tra tên người dùng đang sửa hay không
+    SDL_Rect user_draw;             //nơi vẽ tên người dùng
 
 ///Funcions:
     void Init() //hàm khởi tạo vị trí ống nước mỗi lần game bắt đầu
